@@ -7,8 +7,6 @@ it with the following parameters in order.
 
 """
 
-
 import hamlet
 
-POSITIONAL = hamlet.crazy_math(4,100000,8,98)
-
+POSITIONAL = hamlet.crazy_math(4, 100000, 8, 98)

@@ -9,4 +9,4 @@ it with the following parameters that are releative to the variable in hamlet.
 
 import hamlet
 
-KEYWORD = hamlet.crazy_math(bananas=48,monkeys=84,hours=200000)
+KEYWORD = hamlet.crazy_math(bananas=48, monkeys=84, hours=200000)

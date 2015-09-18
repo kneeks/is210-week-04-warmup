@@ -17,10 +17,10 @@ def know_what_i_mean(wink, numwink=2):
 
         >>> know_what_i_mean('Niko')
         'Know what I mean? NikoNiko, nudge nudge'
-    `
+
         >>> know_what_i_mean('CUNY', 4)
         'Know what I mean? CUNYCUNYCUNYCUNY, nudge nudge nudge nudge'
-        
+
     """
     winks = (wink * numwink).strip()
     nudges = ('nudge ' * numwink).strip()
