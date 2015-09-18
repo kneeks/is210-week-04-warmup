@@ -7,8 +7,9 @@ def defaults(my_required, my_optional=True):
     """This function compares two arguments.
 
     Args:
-        my_required (boolean): 
-        my_optional (boolean, optional): Default: True
+        my_required (boolean): Arg to compare to my_optional
+        my_optional (boolean, optional): Arg to compare to my_required
+        Default: True
 
     Returns:
         boolean: True or False
